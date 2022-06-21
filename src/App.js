@@ -26,10 +26,10 @@ function App() {
 			<h8k-navbar header={title}></h8k-navbar>
 			<div style={{display:'flex', marginTop:'30px',justifyContent: 'center'}}>
 			<div>
-					<NavLink className="nav-link navbar-brand" to="/rank">Rank</NavLink>
-					<NavLink className="nav-link navbar-brand" to="/age">Age</NavLink>
-					<NavLink className="nav-link navbar-brand" to="/points">Points</NavLink>
-					<NavLink className="nav-link navbar-brand" to="/name">Name</NavLink>
+					<NavLink data-testid="route-rank" className="nav-link navbar-brand" to="/rank">Rank</NavLink>
+					<NavLink data-testid="route-age" className="nav-link navbar-brand" to="/age">Age</NavLink>
+					<NavLink data-testid="route-points" className="nav-link navbar-brand" to="/points">Points</NavLink>
+					<NavLink data-testid="route-name" className="nav-link navbar-brand" to="/name">Name</NavLink>
 				</div>
 			</div>
 			<Routes>

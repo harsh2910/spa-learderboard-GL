@@ -1,7 +1,13 @@
 import React from 'react'
 
 const Age = (props) => {
-    const arr = props.arr.sort(function(a,b){
+
+	const tem = props.arr.sort(function(a,b){
+		return a.rank - b.rank;
+	});
+
+
+    const arr = tem.sort(function(a,b){
 		return a.age - b.age;
 	});
 	return (
