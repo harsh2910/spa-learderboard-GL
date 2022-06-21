@@ -1,0 +1,17 @@
+a:hover {
+    text-decoration: none;
+}
+
+.nav-link {
+    background: transparent;
+    color: #1ba94c;
+    border: 1px solid #1ba94c;
+    box-shadow: none;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.nav-link.active {
+    background-color: #4CAF50;
+    color: white;
+}
